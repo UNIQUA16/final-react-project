@@ -1,5 +1,7 @@
 
-function Moreinfo({}) {
+function Moreinfo({
+    
+}) {
     
 
     return (
