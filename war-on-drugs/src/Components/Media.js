@@ -1,5 +1,5 @@
 
-function Header({}) {
+function Media({}) {
     
 
     return (
@@ -9,4 +9,4 @@ function Header({}) {
     );
 }
 
-export default Header;
+export default Media;
