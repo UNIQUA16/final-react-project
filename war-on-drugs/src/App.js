@@ -1,9 +1,9 @@
 import './App.css';
-import Takeaction from './TakeActions';
-import Moreinfo from './Moreinfo';
-import WebBody from './Body.js';
-import Footer from './Footer';
-import Media from'./Media';
+import Takeaction from './Components/TakeAction';
+import Moreinfo from './Components/MoreInfo';
+import WebBody from './Components/Body.js';
+import Footer from './Components/Footer';
+import Media from'./Components/Media';
 
 
 function App() {
