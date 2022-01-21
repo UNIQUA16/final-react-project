@@ -1,8 +1,10 @@
-
-function Moreinfo({
-    
-}) {
-    
+import {} from 'recharts';
+function Moreinfo() {
+    const data =[
+        {
+            
+        },
+    ]
 
     return (
         <div>
