@@ -116,24 +116,30 @@ function Moreinfo() {
     ]
 
     return (
+      
         <div>
-            <p>This Table shows</p>
+            <h1>US Adult Drug Arrests by Race, 1990-2007</h1>
             <BarChart 
-            width={800}
+            width={900}
             height={500}
             data={data}
             >
-                <CartesianGrid strokeDasharray="4 4 " />
+                <CartesianGrid strokeDasharray="5 5 " />
                     <XAxis dataKey= 'year' />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey ='White' fill='#8884d8' />
-                    <Bar dataKey = 'Black' fill = '#FF0000' />
-                    <Bar dataKey = 'OtherRace' fill = '#1D07FA' />
+                    <Bar dataKey ='White' fill='#8884d8'background={{ fill: '#eee' }} />
+                    
+                    <Bar dataKey = 'Black' fill = '#FF0000'background={{ fill: '#eee' }} />
+                    <Bar dataKey = 'OtherRace' fill = '#1D07FA'background={{ fill: '#eee' }} />
 
             </BarChart>
-            <p>The number of annual drug arrests increased almost every year, with the number of black arrests showing considerably more variation annually than white arrests. During this period, the increase in the annual number of black arrests was greater than in the annual number of white arrests: black drug arrests were 4.8 times greater in 2007 than in 1990; white arrests were 3.2 times greater.Overall, nearly one in every three drug arrestees was a black person, despite the fact that black people made up around 13% of the US population at the time.</p>
+            <p>The number of annual drug arrests increased almost every year, with the number of black arrests showing considerably more variation annually than white arrests.
+                 During this period, the increase in the annual number of black arrests was greater than in the annual number of white arrests: black drug arrests were 4.8 times greater in 2007 than in 1990; white arrests were 3.2 times greater.
+                 Overall, nearly one in every three drug arrestees was a black person, despite the fact that black people made up around 13% of the US population at the time.
+                 Despite similar substance consumption statistics, black Americans are roughly six times more likely than white Americans to be incarcerated for drug-related offenses. Nearly 80% of those incarcerated for a federal drug charge are black or Latino. People of color account for 60% of those serving time in state prisons for drug offenses.
+                 </p>
     </div>
     );
 }
