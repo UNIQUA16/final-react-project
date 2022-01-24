@@ -1,6 +1,8 @@
 import Container from '@mui/material/Container';
 
-function Moreinfo({}) {
+function Moreinfo({
+    
+}) {
     
 
     return (
