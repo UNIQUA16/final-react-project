@@ -7,9 +7,12 @@ import Media from'./Components/Media';
 
 
 function App() {
+  
   return (
     <div className="App">
-      
+      <Moreinfo>
+        
+      </Moreinfo>
     </div>
   );
 }
