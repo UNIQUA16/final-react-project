@@ -9,10 +9,10 @@ function Takeaction({}) {
     <div className= "Take_Action">
         <Button>
             <h1 >
-                Take Action
+                Take Action.
             </h1>
             <p>
-                
+
             Sign UP!
             </p>
         </Button>

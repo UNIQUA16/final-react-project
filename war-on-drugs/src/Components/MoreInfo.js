@@ -9,7 +9,7 @@ function Moreinfo({
         <Container maxWidth ="10%">
         <div className= "Info">
         <h1 >
-        More Info /statistics
+        More Info /statistics.
       </h1>
       <p>
       The Drug Policy Alliance (DPA) is the leading organization in the U.S. promoting alternatives to the war on drugs. 
