@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Moreinfo></Moreinfo>
-      <Takeaction></Takeaction>     
-       <Media></Media>
+      <Moreinfo></Moreinfo>    
+      <Takeaction></Takeaction>   
       <WebBody></WebBody>
+      <Media></Media>
       <Footer></Footer>
 <p></p>
 
