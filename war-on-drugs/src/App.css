@@ -1,7 +1,7 @@
 
 .App {
   text-align: center;
-background-color: rgb(71, 64, 53);  inline-size: 100%;
+background-color: #33ab9f;  inline-size: 100%;
 }
 .Header{
   color: #39545c;
@@ -21,18 +21,17 @@ background-color: grey;
 }
 
 .Take_Action{
-  color: rgb(226, 0, 0);
+  color: #f50057;
   text-align: center;
   height: 100vh;
   float: right;
   width: 23%;
-  background-color: rgb(77, 75, 75);
-
+  background-color: white;
   position: "top-right";
 
 }
 .WebBody{
-  color:rgb(228, 228, 228);
+  color:black;
   width: 100%;
   font-size: 26px;
   float: center;
@@ -50,7 +49,7 @@ background-color: grey;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(116, 81, 81);
+  background-color:#00695f;
   color: white;
   text-align: center;
 }
