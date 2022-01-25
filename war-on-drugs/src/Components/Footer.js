@@ -3,9 +3,9 @@ function Footer({}) {
     
 
     return (
-        <div>
-        
-    </div>
+        <div class="footer">
+          <p>Footer.</p>
+        </div>
     );
 }
 
