@@ -8,16 +8,19 @@ function Takeaction({}) {
     <Container maxWidth ="">
     <div className= "Take_Action">
         
-            <h1 >
-                Take Action
-            </h1>
-            <Button>
-            <p>
-            Sign UP! 
+            <h2 >
+                WANT TO MAKE A CHANGE?
+            </h2>
+            <p> MAKE A DONATION TO ASSIT WITH LEGAL FEES FOR DRUG INCARCERATED MINORITIES  </p>
 
-            </p>
-        </Button>
-        </div>
+            <Button variant="contained">
+                DONATE
+            </Button>
+            <p> Sign up for our latest newsletters</p>
+            <Button variant="contained">
+                Sign up 
+            </Button>
+    </div>
         
     </Container>
     );
