@@ -1,8 +1,7 @@
 
 .App {
   text-align: center;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjl7aCSUmLg6BPmDbRCEtOuDRCWxnFmChJLQ&usqp=CAU') ;
-  inline-size: 100%;
+background-color: rgb(71, 64, 53);  inline-size: 100%;
 }
 .Header{
   color: #39545c;
