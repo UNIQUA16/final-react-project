@@ -7,6 +7,7 @@ function Footer({}) {
     
 
     return (
+
         <footer>
             <Box>
                 <Container maxWidth ="lg">
@@ -19,7 +20,12 @@ function Footer({}) {
                 </Container>
             </Box>
         </footer>
-    );
+// =======
+// //         <div class="footer">
+// //           <p>Footer.</p>
+// //         </div>
+// // >>>>>>> 85767a9596c40827c7fbd3d82d4b788c6cb031d5
+// //     );
 }
 
 export default Footer;
