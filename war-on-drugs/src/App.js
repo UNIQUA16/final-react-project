@@ -4,15 +4,23 @@ import Moreinfo from './Components/MoreInfo';
 import WebBody from './Components/Body.js';
 import Footer from './Components/Footer';
 import Media from'./Components/Media';
+import Header from './Components/Header';
 
 
 function App() {
   
   return (
     <div className="App">
-      <Moreinfo>
-        
-      </Moreinfo>
+
+      <Moreinfo></Moreinfo>
+      <Header></Header>
+      <Takeaction></Takeaction>   
+      <WebBody></WebBody>
+      <Media></Media>
+      <Footer></Footer>
+<p></p>
+
+
     </div>
   );
 }

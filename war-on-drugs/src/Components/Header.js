@@ -3,8 +3,10 @@ function Header({}) {
     
 
     return (
-        <div>
-        
+        <div >
+        <h1 className="Header">
+        War On Drugs
+      </h1>
     </div>
     );
 }

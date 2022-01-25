@@ -1,11 +1,25 @@
+import { Container } from "@mui/material";
+import Button from '@mui/material/Button';
 
 function Takeaction({}) {
-    
+
 
     return (
-        <div>
+    <Container maxWidth ="">
+    <div className= "Take_Action">
         
-    </div>
+            <h1 >
+                Take Action
+            </h1>
+            <Button>
+            <p>
+            Sign UP! 
+
+            </p>
+        </Button>
+        </div>
+        
+    </Container>
     );
 }
 
