@@ -5,15 +5,16 @@ function Takeaction({}) {
 
 
     return (
-    <Container>
+    <Container maxWidth ="">
     <div className= "Take_Action">
-        <Button>
+        
             <h1 >
-                Take Action.
+                Take Action
             </h1>
+            <Button>
             <p>
+            Sign UP! 
 
-            Sign UP!
             </p>
         </Button>
         </div>
