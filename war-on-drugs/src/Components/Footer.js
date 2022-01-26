@@ -7,7 +7,7 @@ function Footer({}) {
   return (
     <div class="footer">
       
-      <p> &copy; War On Drugs </p>
+      <p> &copy; War   On Drugs </p>
       <p>Social Media </p>
       <Grid container spacing ={1} direction='row' alignItems='center' justifyContent='center'>
       <Grid item >

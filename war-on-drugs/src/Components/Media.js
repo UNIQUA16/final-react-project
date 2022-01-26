@@ -15,7 +15,7 @@ function Media({}) {
          <iframe id = "YT1" width="500" height="320" src="https://www.youtube.com/embed/Xf5qFIpJ2sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Grid>
                 <Grid item xs={12}  md={6}>
-         <iframe width="500" height="320" src="https://www.youtube.com/embed/pCyYSQLAEFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe  id = "YT2" width="1019" height="573" src="https://www.youtube.com/embed/pCyYSQLAEFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Grid>
             </Grid>
         </div>
