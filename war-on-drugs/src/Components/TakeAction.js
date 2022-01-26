@@ -45,16 +45,18 @@ function Takeaction({}) {
             </Button>
             <div className= "Related_Article">
                 <p> RELATED ARTICLES </p>
-                <Grid container alignItems='center'
-                    justifyContent='center spacing{4}' direction='column'>
+                <Grid container spacing={1} alignItems='center'
+                    justifyContent='center' direction='column'>
                     {articles.map((element) => {
                         return(
+                            <Grid item >
                         <RelatedArticle
                         title={element.title}
                         image={element.image}
                         content={element.content} 
                         url={element.url}
                         />
+                            </Grid>
                         )
                     })}    
                     </Grid>
