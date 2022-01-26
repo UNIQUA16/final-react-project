@@ -6,9 +6,16 @@ background-color: white;  inline-size: 100%;
 .Header{
   color: black;
   margin: 0%;
-  font-size: 50px;
-  background-color: #00695f;
+  font-size: 25px;
+  background-color: #1565c0;
   font-style: inherit;
+  text-align:start;
+  padding-block: 20px;
+}
+
+.SubHeader{
+  text-align: right;
+  color: white;
 }
  
 .Info{
@@ -19,14 +26,14 @@ text-align: center;
 margin: auto;
 float: left;
 width: 60%;
-background-color: #33ab9f;
+background-color: #2196f3;
 }
 
 .Take_Action{
   color: #f50057;
   text-align: center;
   width: 60%;
-  background-color: #33ab9f;
+  background-color: #2196f3;
   float: right;
   margin: auto;
 
