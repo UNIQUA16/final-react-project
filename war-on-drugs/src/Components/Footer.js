@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button';
+
 import Media from './Media';
 function Footer({}) {
     
@@ -7,11 +8,15 @@ function Footer({}) {
         <div class="footer">
           <p> &copy; War On Drugs </p>
           <p>Social Media </p>
-            <Button>
-                {"twitter"}
-            </Button>
+          <Button>
+            {'Twitter'}
+          </Button>
+          
+              
         </div>
+         
     );
+    
 }
 
 export default Footer;
