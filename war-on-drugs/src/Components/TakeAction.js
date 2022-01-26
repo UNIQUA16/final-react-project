@@ -21,10 +21,10 @@ function Takeaction({}) {
         },
 
         {
-            title: 'Demi Lovato Struggles with Cocaine',
-            url: 'https://americanaddictioncenters.org/blog/demi-lovato-cocaine-addiction',
-            content:'Published: April 16, 2021',
-            image: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F12%2F02%2Fdemi-lovato-1.jpg',
+            title: 'What is Drug Addiction?',
+            url: 'https://www.webmd.com/mental-health/addiction/drug-abuse-addiction#1',
+            content:'If you or a loved one is facing drug addiction, help uis here for you.',
+            image: 'https://tapinto-production.s3.amazonaws.com/uploads/photos/09/best_crop_de4b074145af16d626e8_mini_magick20220115-12558-t0qxvh.jpg?id=3895471',
         },
 ]
     return (
