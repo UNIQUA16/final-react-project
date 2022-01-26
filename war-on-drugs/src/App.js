@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
 
-    <Grid  container spacing={1} direction='row' justifyContent='space-evenly' alignItems='center'>  
+    <Grid  container spacing={1} direction='row' justifyContent='space-evenly' alignItems='flex-start'>  
       <Grid item xs={12}> 
       <Header></Header>
       </Grid>
