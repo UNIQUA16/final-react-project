@@ -12,10 +12,12 @@ function App() {
   return (
     <div className="App">
 
-      <Moreinfo></Moreinfo>
+      
       <Header></Header>
       <Takeaction></Takeaction>   
+      <Moreinfo></Moreinfo>
       <WebBody></WebBody>
+      
       <Media></Media>
       <Footer></Footer>
 <p></p>
