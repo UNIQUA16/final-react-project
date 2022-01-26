@@ -1,4 +1,5 @@
 
+import { Container } from '@mui/material';
 import { BarChart, Legend, Tooltip, XAxis, YAxis,CartesianGrid , Bar} from 'recharts';
 function Moreinfo() {
     const data =[
@@ -115,13 +116,13 @@ function Moreinfo() {
     ]
     
 
-    return (
-      
-        <div>
+return (
+    <Container maxWidth= "">
+        <div className='Info'>
             <h1>US Adult Drug Arrests by Race, 1990-2007</h1>
             <BarChart 
-            width={900}
-            height={500}
+            width={365}
+            height={400}
             data={data}
             >
                 <CartesianGrid strokeDasharray="5 5 " />
@@ -141,6 +142,7 @@ function Moreinfo() {
                  Despite similar substance consumption statistics, black Americans are roughly six times more likely than white Americans to be incarcerated for drug-related offenses. Nearly 80% of those incarcerated for a federal drug charge are black or Latino. People of color account for 60% of those serving time in state prisons for drug offenses.
                  </p>
         </div>
+    </Container>
     );
 }
 
