@@ -18,21 +18,21 @@ function App() {
       <Header></Header>
       </Grid>
       
-      <Grid item xs={6} lg={4} md={4}>
+      <Grid item xs={12} lg={4} md={4} sm={8}>
         <Moreinfo></Moreinfo>
       </Grid>
 
-      <Grid item xs={6} md={4}>
+      <Grid item xs={12} md={4} sm={8}>
         <WebBody></WebBody>
       
       </Grid>
       
-      <Grid item xs={12} md={4}>
+      <Grid item xs={12} md={4} sm={8}>
           
           <Takeaction></Takeaction>  
         
       </Grid> 
-      <Grid item xs={9}>
+      <Grid item xs={12} md={8} sm={8}>
         <Media></Media>
       </Grid>
 
