@@ -28,7 +28,7 @@ function Takeaction({}) {
         },
 ]
     return (
-    <Container maxWidth ="">
+    
         <div className= "Take_Action">
             
             <h2 >
@@ -46,7 +46,7 @@ function Takeaction({}) {
             <div className= "Related_Article">
                 <p> RELATED ARTICLES </p>
                 <Grid container alignItems='center'
-                    justifycontent='center spacing{4}'>
+                    justifyContent='center spacing{4}' direction='column'>
                     {articles.map((element) => {
                         return(
                         <RelatedArticle
@@ -65,7 +65,7 @@ function Takeaction({}) {
         </div>
        
         
-    </Container>
+    
     );
 }
 
