@@ -12,23 +12,21 @@ background-color: white;  inline-size: 100%;
  
 .Info{
 color: #3d4446;
-font-size: small;
+font-size: medium;
 text-align: center;
-height: 100vh;
+
 margin: auto;
 float: left;
-width: 23%;
-background-color: rgb(255, 255, 255);
+width: 60%;
+background-color: #33ab9f;
 }
 
 .Take_Action{
   color: #f50057;
   text-align: center;
-  height: 100vh;
-  float: right;
-  width: 23%;
+  width: 60%;
   background-color: #33ab9f;
-  position: "top-right";
+  float: right;
   margin: auto;
 
 }

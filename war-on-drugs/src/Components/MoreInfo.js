@@ -121,7 +121,7 @@ return (
         <div className='Info'>
             <h1>US Adult Drug Arrests by Race, 1990-2007</h1>
             <BarChart 
-            width={365}
+            width={350}
             height={400}
             data={data}
             >
