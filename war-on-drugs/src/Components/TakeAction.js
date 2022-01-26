@@ -49,14 +49,12 @@ function Takeaction({}) {
                     justifycontent='center spacing{4}'>
                     {articles.map((element) => {
                         return(
-                        // <item xs={4} md={4} lg={2}>
                         <RelatedArticle
                         title={element.title}
                         image={element.image}
                         content={element.content} 
                         url={element.url}
                         />
-                        // </Grid>
                         )
                     })}    
                     </Grid>

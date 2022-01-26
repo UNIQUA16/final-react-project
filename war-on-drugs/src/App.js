@@ -11,8 +11,6 @@ function App() {
   
   return (
     <div className="App">
-
-      
       <Header></Header>
       <Takeaction></Takeaction>   
       <Moreinfo></Moreinfo>
@@ -20,8 +18,6 @@ function App() {
       
       <Media></Media>
       <Footer></Footer>
-<p></p>
-
 
     </div>
   );
