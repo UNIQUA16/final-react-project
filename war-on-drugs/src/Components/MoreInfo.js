@@ -141,10 +141,10 @@ return (
                  Overall, nearly one in every three drug arrestees was a black person, despite the fact that black people made up around 13% of the US population at the time.
                  Despite similar substance consumption statistics, black Americans are roughly six times more likely than white Americans to be incarcerated for drug-related offenses. Nearly 80% of those incarcerated for a federal drug charge are black or Latino. People of color account for 60% of those serving time in state prisons for drug offenses.
                  </p>
+                
         </div>
     </Container>
     );
 }
 
 export default Moreinfo;
-
