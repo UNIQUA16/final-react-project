@@ -125,15 +125,15 @@ return (
             height={400}
             data={data}
             >
-                <CartesianGrid strokeDasharray="5 5 " />
+                <CartesianGrid strokeDasharray="4 4" fill='white' />
                     <XAxis dataKey= 'year' />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey ='White' fill='#8884d8'background={{ fill: '#eee' }} />
+                    <Bar dataKey ='White' fill='#FF00FF'background={{ fill: '#FFFFFF' }} />
                     
-                    <Bar dataKey = 'Black' fill = '#FF0000'background={{ fill: '#eee' }} />
-                    <Bar dataKey = 'OtherRace' fill = '#1D07FA'background={{ fill: '#eee' }} />
+                    <Bar dataKey = 'Black' fill = '#FF0000'background={{ fill: '#FFFFFF' }} />
+                    <Bar dataKey = 'OtherRace' fill = '#000000' background={{ fill: '#FFFFFF' }}/>
 
             </BarChart>
                 <p>The number of annual drug arrests increased almost every year, with the number of black arrests showing considerably more variation annually than white arrests.
