@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 function RelatedArticle({ url, image, title, content }) {
   return (
     <div>
-      <Card className ="cardarea" sx={{ height: '300px', width: '320px',}}>
+      <Card className="cardarea" sx={{ height: "300px", width: "320px" }}>
         <CardActionArea>
           <CardMedia component="img" height="140" image={image} alt="" />
           <CardContent>
