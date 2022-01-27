@@ -3,12 +3,13 @@ import { faPhoneSquareAlt } from "@fortawesome/free-solid-svg-icons";
 import Button from "@mui/material/Button";
 
 function Header({}) {
+
   return (
     <div className="Header">
       <h1>Social and Psychological Issues of Drug Use and Policies</h1>
       <p>
         {" "}
-        by Uniqua Robinson, Migeul Eliotte, Chad Mathlin | January 26, 2022 |{" "}
+        by Uniqua Robinson, Migeul Eliotte, Chad Mathlin | Published: January 26, 2022 |{" "}
       </p>
       <div className="SubHeader">
         <p>

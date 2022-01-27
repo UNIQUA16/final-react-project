@@ -24,10 +24,12 @@ function WebBody({}) {
         remove the harsh sentencing, provide diversity programs and so on.
       </p1>
       <div>
-        <img
-          id="Bodyimg"
-          src="https://atlantablackstar.com/wp-content/uploads/2017/07/Man-Behind-Bars-1.jpg"
+        <div >
+        <img id="Bodyimg" 
+          
+          src="https://atlantablackstar.com/wp-content/uploads/2017/07/Man-Behind-Bars-1.jpg" 
         ></img>
+        </div>
 
         <h3 id="Drugwar">
           THE DRUG WAR DRIVES RACIAL DISPARITY IN THE CRIMINAL LEGAL SYSTEM

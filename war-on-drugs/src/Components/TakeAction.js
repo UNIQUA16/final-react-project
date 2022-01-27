@@ -35,7 +35,7 @@ function Takeaction({}) {
       <h2>WANT TO MAKE A CHANGE?</h2>
       <p>
         {" "}
-        MAKE A DONATION TO ASSIT WITH LEGAL FEES FOR DRUG INCARCERATED
+        MAKE A DONATION TO ASSIST WITH LEGAL FEES FOR DRUG INCARCERATED
         MINORITIES{" "}
       </p>
 
@@ -43,7 +43,7 @@ function Takeaction({}) {
       <p> Sign up for our latest newsletters</p>
       <Button variant="contained">Sign up</Button>
       <div className="Related_Article">
-        <p> RELATED ARTICLES </p>
+        <h2> <b>RELATED ARTICLES </b> </h2>
         <Grid
           container
           spacing={1}

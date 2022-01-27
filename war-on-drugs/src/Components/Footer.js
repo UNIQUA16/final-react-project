@@ -2,16 +2,18 @@ import Button from "@mui/material/Button";
 import Media from "./Media";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutubeSquare,
+  faYoutube,
   faTwitter,
   faInstagram,
+  faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import Grid from "@mui/material/Grid";
+
 
 function Footer({}) {
   return (
     <div class="footer">
-      <p> &copy; War On Drugs </p>
+      <p>  War On Drugs &copy; </p>
       <p>Social Media </p>
 
       <Grid
@@ -21,19 +23,23 @@ function Footer({}) {
         alignItems="center"
         justifyContent="center"
       >
-        <i class="fas fa-camera fa-2x">
-          <Grid item>
+        <Grid item xs={1}>
+          <i class="fas fa-camera fa-2x">
             <FontAwesomeIcon icon={faTwitter} className="Twitter" />
-          </Grid>
+          </i>
+        </Grid>
 
-          <Grid item>
-            <FontAwesomeIcon icon={faYoutubeSquare} className="Youtube" />
-          </Grid>
+        <Grid item xs={1}>
+          <i class="fas fa-camera fa-2x">
+            <FontAwesomeIcon icon={faYoutube} className="Youtube" />
+          </i>
+        </Grid>
 
-          <Grid item>
+        <Grid item xs={1}>
+          <i class="fas fa-camera fa-2x" >
             <FontAwesomeIcon icon={faInstagram} className="Instagram" />
-          </Grid>
-        </i>
+          </i>
+        </Grid>
       </Grid>
     </div>
   );
