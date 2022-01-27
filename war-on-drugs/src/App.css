@@ -19,20 +19,18 @@
 }
  
 .Info{
-color: #3d4446;
+color: black;
 font-size: medium;
 text-align: center;
 max-width: 400px;
 min-width: 400px;
 margin: auto;
-
 background-color: #42a5f5;
-
 padding: 5px;
 }
 
 .Take_Action{
-  color: #f50057;
+  color: white;
   text-align: center;
   max-width: 400px;
   min-width: 400px;
@@ -60,6 +58,7 @@ inline-size: auto;
   text-align: center;
   padding-top:6%;
   padding-block: 20px;
+  
 
 }
 

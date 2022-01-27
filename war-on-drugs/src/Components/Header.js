@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneSquareAlt } from "@fortawesome/free-solid-svg-icons";
-
-
-
+import Button from "@mui/material/Button";
 
 function Header({}) {
   return (
@@ -12,8 +10,15 @@ function Header({}) {
         {" "}
         by Uniqua Robinson, Migeul Eliotte, Chad Mathlin | January 26, 2022 |{" "}
       </p>
-      <div className='SubHeader'>
-          <p> Treatment calls are waiting for you: <FontAwesomeIcon icon={faPhoneSquareAlt} />(877) 729-4540</p>
+      <div className="SubHeader">
+        <p>
+          {" "}
+          Need Support? Call:
+          <Button variant="contained" color="secondary">
+            <FontAwesomeIcon icon={faPhoneSquareAlt} />
+            (877) 729-4540
+          </Button>
+        </p>
       </div>
     </div>
   );
