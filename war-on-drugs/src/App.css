@@ -55,13 +55,10 @@ inline-size: auto;
 .WebBody{
   inline-size: auto;
   color:rgb(41, 24, 24);
-  width: 400px;
   font-size: 15px;
   float: center;
   text-align: center;
   padding-top:6%;
-  padding-block: 20px;
-  
 
 }
 
@@ -89,7 +86,7 @@ inline-size: auto;
   .Twitter{
     color: dodgerblue; 
   }
-  
+
   .Instagram{
     color: plum;
     
