@@ -7,7 +7,7 @@ function Takeaction({}) {
   const articles = [
     {
       title: "Drug Policy Alliance",
-      url: "https://drugpolicy.org/",
+      url: "https://drugpolicy.org/",                           
       image:
         "https://drugpolicy.org/sites/default/files/styles/drugpolicy_banner_mobile/public/2022-01/the_drug_war_hurts_2.png?itok=iEs05tz5",
       content: "Non Profit Organization",
