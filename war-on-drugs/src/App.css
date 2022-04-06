@@ -91,3 +91,19 @@ inline-size: auto;
     color: plum;
     
   }
+  .container{
+    width: 100%;
+    background-image: 
+  url("https://post.healthline.com/wp-content/uploads/2020/09/040816_druglaws_THUMB_LARGE-1200x628.jpg");
+  background-size: "cover";
+  height: 100vh;
+  margin-top: 10px;
+  font-size:50px;
+  background-repeat:no-repeat; 
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+  inline-size: auto;
+  float: center;
+  padding-top:6%;
+  }

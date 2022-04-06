@@ -2,7 +2,15 @@ import { Container } from "@mui/material";
 import Button from "@mui/material/Button";
 import RelatedArticle from "./RelatedArticles";
 import Grid from "@mui/material/Grid";
+import React, { useState } from 'react';
 
+function Form(){
+ alert('Sign Up for more information')
+}
+function clickme2(){
+  alert('Donate $1 today to help someone affected by the Justice System')
+  
+ }
 function Takeaction({}) {
   const articles = [
     {
@@ -39,9 +47,9 @@ function Takeaction({}) {
         MINORITIES{" "}
       </p>
 
-      <Button variant="contained">DONATE</Button>
+      <Button variant="contained" onClick={clickme2}>DONATE</Button>
       <p> Sign up for our latest newsletters</p>
-      <Button variant="contained">Sign up</Button>
+      <Button variant="contained" onClick={Form}>Sign up </Button>
       <div className="Related_Article">
         <h2> <b>RELATED ARTICLES </b> </h2>
         <Grid
